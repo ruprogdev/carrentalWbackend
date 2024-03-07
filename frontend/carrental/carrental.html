@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title> Rent a car | Ruprog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
     <body>
         <header>
@@ -16,7 +16,11 @@
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Contact</a>
-                <button class="btnLogin-popup">Login</button>
+                
+                <button id="loginButton" class="btnLogin-popup">Login</button>
+
+                <button id="logoutButton" class="btnLogin-popup hidden">Logout</button>
+
             </nav>
         </header>
         <div class="wrapper">
@@ -29,9 +33,9 @@
                 <h2>Login</h2>
                 <form id="loginForm" action="#">
                     <div class="input-box">
-                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
                         <input id="username" type="text" required>
-                        <label>Email</label>
+                        <label>Username</label>
                     </div>
                     <div class="input-box">
                         <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
@@ -78,9 +82,10 @@
             </div>
         </div>
 
-        <script src="registration.js"></script>
-        <script src="logintest.js"></script>
-        <script src="script.js"></script>
+        <script src="js/registration.js"></script>
+        <script src="js/logintest.js"></script>
+        <script src="js/script.js" ></script>
+        <script src="js/logoutfun.js" ></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
     </body>

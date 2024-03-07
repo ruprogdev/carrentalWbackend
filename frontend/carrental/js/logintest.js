@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (response.ok) {
                 alert('Login successful');
                 // Optionally, handle post-login success, e.g., redirect or local storage token save
-                window.location.href = '/logged.html'; // Adjust the path as needed or implement other post-login actions
+                window.location.href = '/carrental.html'; // Adjust the path as needed or implement other post-login actions
             } else {
                 throw new Error(data.message || 'Login failed');
             }
